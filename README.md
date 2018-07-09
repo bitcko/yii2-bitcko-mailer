@@ -35,7 +35,7 @@ Once the extension is installed, simply use it in your code by  :
 'components'=> [
     ...
 'BitckoMailer'=>[
-            'class'=>'app\extensions\BitckoMailer',
+            'class'=>'bitcko\mailer\BitckoMailer',
             'SMTPDebug'=> 2, // 0 to disable, optional
             'isSMTP'=>true, // default true
             'Host'=>'smtp.gmail.com', //optional
