@@ -1,0 +1,25 @@
+{
+    "name": "bitcko/yii2-bitcko-mailer",
+    "description": "Bitcko Yii2 PHPMailer use to send emails from your project.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","mail","email","send email","PHPMailer","smtp","html","emails","yii mailer","mailer"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Mhmd Backer Shehadi",
+            "email": "m.backer.shehadi@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "phpmailer/phpmailer": "~6.0"
+        
+    },
+    
+    "autoload": {
+        "psr-4": {
+            "bitcko\\mailer\\": ""
+        }
+    }
+}
+
